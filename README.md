@@ -1,4 +1,4 @@
-# react-native-voicebox-speech-rec <img src="img/library_logo.png"  alt="SpeechRec"  width="24"  height="24">
+# react-native-voicebox-speech-rec <img src="img/library_logo.png"  alt="SpeechRec"  width="64"  height="64">
 
 **React Native Voicebox Speech Recognition**: A powerful speech recognition library for React Native applications, enabling real-time speech-to-text transcription.
 
@@ -18,6 +18,7 @@
 | Android support |
 | Sample App      |
 
+<br/>
 ## Features
 
 - **Real-time Transcription**: Convert speech to text in real-time as the user speaks.
@@ -25,6 +26,7 @@
 - **Language Flexibility**: Set a specific language for recognition or default to the user's device system language.
 - **No Cloud Dependency**: Leverage the native speech recognition engines on iOS and Android without relying on external cloud services.
 - **Universal Language Support**: Compatible with most languages.
+  <br/>
 
 ## Installation
 
@@ -51,6 +53,7 @@ Please make sure AndroidX is enabled in your React Native project by editing `an
     android.useAndroidX=true
     android.enableJetifier=true
 
+<br/>
 ## Linking
 
 Please use React Native version >=0.60 . React native will automatically link the library to your project.
@@ -186,9 +189,11 @@ export const ConversationPage = React.memo(() => {
 });
 ```
 
+<br/>
 ## Example App
 
 For full and advanced usage please take a look into the example React Native app in the example folder.
+<br/>
 
 ## API
 

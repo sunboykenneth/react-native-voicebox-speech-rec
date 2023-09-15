@@ -2,3 +2,4 @@ node_modules
 dist
 .env
 TODELETE.txt
+.DS_Store
