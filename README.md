@@ -215,3 +215,17 @@ For full and advanced usage please take a look into the example React Native app
 ## License
 
 MIT
+
+<br/>
+
+## Packages used
+
+Greatly thanks to the following libraries which this project depends on:
+
+- react-native-localize
+- react-native-webview
+- react-native-volume-manager
+
+<br/>
+
+## Enjoy using this library!
