@@ -1,6 +1,6 @@
 {
   "name": "react-native-voicebox-speech-rec",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "A powerful speech recognition library for React Native applications, enabling real-time speech-to-text transcription.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -16,6 +16,8 @@
     "android",
     "ios"
   ],
+  "repository": "https://github.com/sunboykenneth/react-native-voicebox-speech-rec",
+  "homepage": "https://github.com/sunboykenneth/react-native-voicebox-speech-rec",
   "author": "Kenneth Hu <sunboykenneth@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -54,8 +56,5 @@
   },
   "jest": {
     "preset": "react-native"
-  },
-  "directories": {
-    "example": "example"
   }
 }

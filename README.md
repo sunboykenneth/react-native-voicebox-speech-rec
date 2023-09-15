@@ -1,4 +1,4 @@
-# react-native-voicebox-speech-rec <img src="img/library_logo.png"  alt="SpeechRec"  width="64"  height="64">
+# react-native-voicebox-speech-rec <img src="https://github.com/sunboykenneth/react-native-voicebox-speech-rec/blob/main/img/library_logo.png?raw=true"  alt="SpeechRec"  width="64"  height="64">
 
 **React Native Voicebox Speech Recognition**: A powerful speech recognition library for React Native applications, enabling real-time speech-to-text transcription.
 
@@ -6,7 +6,7 @@
 - 🌐 Driven by the [SpeechRecognition interface](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) from the Web Speech API.
 <br/>
 <p  align="center">
-<img  src="img/example_app_demo.gif"  alt="SpeechRec"  width="300">
+<img  src="https://github.com/sunboykenneth/react-native-voicebox-speech-rec/blob/main/img/example_app_demo.gif?raw=true"  alt="SpeechRec"  width="300">
 </p>
 <br/>
 
@@ -67,7 +67,7 @@ Please use React Native version >=0.60 . React native will automatically link th
 🤖 **Android Emulator**: No specific issues noted. Just remember to enable to use the host audio input for emulator everytime (shown below).
 
 <p  align="center">
-<img  src="img/android_emulator_setup.gif"  alt="SpeechRec"  width="500">
+<img  src="https://github.com/sunboykenneth/react-native-voicebox-speech-rec/blob/main/img/android_emulator_setup.gif?raw=true"  alt="SpeechRec"  width="500">
 </p>
 <br/>
 

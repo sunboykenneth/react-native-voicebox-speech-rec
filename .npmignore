@@ -1,0 +1,12 @@
+.git/
+.gitignore
+.npmignore
+.babelrc
+tsconfig.json
+node_modules/
+example/
+test/
+img/
+yarn.lock
+package-lock.json
+.DS_Store
