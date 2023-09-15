@@ -19,6 +19,7 @@
 | Sample App      |
 
 <br/>
+
 ## Features
 
 - **Real-time Transcription**: Convert speech to text in real-time as the user speaks.
@@ -54,6 +55,7 @@ Please make sure AndroidX is enabled in your React Native project by editing `an
     android.enableJetifier=true
 
 <br/>
+
 ## Linking
 
 Please use React Native version >=0.60 . React native will automatically link the library to your project.
@@ -190,6 +192,7 @@ export const ConversationPage = React.memo(() => {
 ```
 
 <br/>
+
 ## Example App
 
 For full and advanced usage please take a look into the example React Native app in the example folder.
