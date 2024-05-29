@@ -1,5 +1,5 @@
 import React, {useCallback, useContext} from 'react';
-import {View} from 'react-native';
+import {View, Platform} from 'react-native';
 import {WebView} from 'react-native-webview';
 import {SpeechRecContext} from '../context/SpeechRecProvider';
 import {speechRecScript} from '../static/speechRecScript';
@@ -12,6 +12,13 @@ interface MessageEvent {
 
 export const SpeechRecView = React.memo(() => {
   const {webViewRef, notifyListeners} = useContext(SpeechRecContext);
+
+  const webViewSrc = Platform.select({
+    ios: {uri: "html/speechRec.html"},
+    android: {html: speechRecScript}
+  })
+
+  console.log(webViewSrc);
 
   const onMessageReceived = useCallback(
     (event: any) => {
@@ -28,8 +35,8 @@ export const SpeechRecView = React.memo(() => {
     <View style={{width: 0, height: 0, overflow: 'hidden'}}>
       <WebView
         ref={webViewRef}
+        source={webViewSrc}
         originWhitelist={['*']}
-        source={{html: speechRecScript}}
         onMessage={onMessageReceived}
         onLoad={() => {
           console.log('🫵 🫵  Speech Rec Script View Loaded 🫵 🫵 ');
