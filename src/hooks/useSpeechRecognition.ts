@@ -86,7 +86,7 @@ export const useSpeechRecognition = (): SpeechRecognitionHookType => {
   useEffect(() => {
     if (Platform.OS === 'android') {
       VolumeManager.getVolume().then((result: any) => {
-        currentSystemVolumeRef.current = result.system || result.volume;
+        currentSystemVolumeRef.current = result.volume;
       });
     }
   }, []);
@@ -98,7 +98,7 @@ export const useSpeechRecognition = (): SpeechRecognitionHookType => {
           return;
         }
 
-        currentSystemVolumeRef.current = result.system || result.volume;
+        currentSystemVolumeRef.current = result.volume;
       });
 
       return () => {

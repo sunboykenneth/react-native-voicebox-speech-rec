@@ -27,7 +27,7 @@ interface SpeechRecWebViewProviderProps {
  */
 export const SpeechRecProvider = ({
   children,
-}: SpeechRecWebViewProviderProps): JSX.Element => {
+}: SpeechRecWebViewProviderProps): React.ReactNode => {
   const webViewRef = useRef<any>(null);
   const [listeners, setListeners] = useState<
     Record<SpeechRecReqType, Array<(data: any) => void>>

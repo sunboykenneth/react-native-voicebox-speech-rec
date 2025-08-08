@@ -1,0 +1,1 @@
+{"version":3,"file":"SpeechRecognitionRootView.d.ts","sourceRoot":"","sources":["../../../src/component/SpeechRecognitionRootView.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,EAAC,SAAS,EAAC,MAAM,OAAO,CAAC;AAIvC,UAAU,8BAA8B;IACtC,QAAQ,CAAC,EAAE,SAAS,CAAC;CACtB;AAED,eAAO,MAAM,yBAAyB;oBAEnC,8BAA8B,GAAG,KAAK,CAAC,YAAY;;CAOrD,CAAC"}

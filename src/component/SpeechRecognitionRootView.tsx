@@ -8,7 +8,7 @@ interface SpeechRecognitionRootViewProps {
 
 export const SpeechRecognitionRootView = ({
   children,
-}: SpeechRecognitionRootViewProps): JSX.Element => {
+}: SpeechRecognitionRootViewProps): React.ReactElement => {
   return (
     <SpeechRecProvider>
       {children}
